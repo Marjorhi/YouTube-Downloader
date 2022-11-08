@@ -12,4 +12,6 @@ for i in video:
     print("Enter the option to download the format: ")
     dn_option = int(input("Enter the option: "))
 
-    
+    dn_video = videos[dn_option]
+    dn_video.download()
+
